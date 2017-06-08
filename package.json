@@ -2,12 +2,26 @@
   "name": "koa-ws-proxy",
   "version": "0.1.0",
   "description": "",
-  
   "repository": {
     "type": "git",
     "url": "https://github.com/yedaodao/koa-ws-proxy.git"
   },
-  
   "author": "yedaodao",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "babel ./ -d build/ --ignore ./node_modules",
+    "dev": "nodemon index.js --config ./nodemon-app.json"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^1.11.0"
+  }
 }
