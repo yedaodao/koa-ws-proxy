@@ -1,0 +1,13 @@
+{
+  "name": "koa-ws-proxy",
+  "version": "0.1.0",
+  "description": "",
+  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yedaodao/koa-ws-proxy.git"
+  },
+  
+  "author": "yedaodao",
+  "license": "MIT"
+}
